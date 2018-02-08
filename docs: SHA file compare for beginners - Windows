@@ -1,0 +1,6 @@
+Since most people dont know how to verify SHA hashes for the core downloadI propose to add Powershell example to the site docs/faq.
+On a Windows Computer, run Powershell (usually in the accessories menu or just do a search for Powershell)
+In the blue window that opens, change to the folder where your file is located. 
+Run the following command and compare the output to the site SHA256 hashes of the file you downloaded.
+get-filehash <path to file> and hit enter.
+Your output should resemble this and you can verify the hash on the bitcoincore.org website
